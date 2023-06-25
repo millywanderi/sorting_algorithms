@@ -49,6 +49,10 @@ void zero_init(int *array, int size);
 int max_dig(int *array, size_t size);
 void count_sort(int *array, size_t size, int loc);
 void bitonic_sort(int *array, size_t size);
+void print_seq(int *array, int lb, int ub);
+void swap_ele(int *array, int one, int two, int bound);
+void merge_seque(int *array, size_t lb, size_t ub, int bound,size_t size);
+void make_seque(int *array, size_t lb, size_t ub, int bound, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
 #endif
