@@ -29,6 +29,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quick_sort_help(int *array, size_t size, int one, int two);
 int qs_partition(int *array, int low, int up, size_t size);
+void swapp(int *one, int *two);
 void shell_sort(int *array, size_t size);
 size_t find_seq(size_t size);
 void cocktail_sort_list(listint_t **list);
@@ -54,5 +55,8 @@ void swap_ele(int *array, int one, int two, int bound);
 void merge_seque(int *array, size_t lb, size_t ub, int bound,size_t size);
 void make_seque(int *array, size_t lb, size_t ub, int bound, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+void swaps(int *array, size_t one, size_t two);
+int partition_hoare(int *array, int one, int two, int size);
+void q_sort(int *array, ssize_t one, ssize_t two, int size);
 
 #endif
