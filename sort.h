@@ -14,9 +14,9 @@
  */
 typedef struct listint_s
 {
-    const int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+	const int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 /* prototypes */
@@ -52,7 +52,7 @@ void count_sort(int *array, size_t size, int loc);
 void bitonic_sort(int *array, size_t size);
 void print_seq(int *array, int lb, int ub);
 void swap_ele(int *array, int one, int two, int bound);
-void merge_seque(int *array, size_t lb, size_t ub, int bound,size_t size);
+void merge_seque(int *array, size_t lb, size_t ub, int bound, size_t size);
 void make_seque(int *array, size_t lb, size_t ub, int bound, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void swaps(int *array, size_t one, size_t two);
